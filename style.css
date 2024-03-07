@@ -1,0 +1,152 @@
+.container {
+  margin: auto;
+  width: 70%;
+  padding: 5px;
+  align-items: center;
+}
+body {
+  background-color: #4f8775;
+  width: 999%;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100;
+  /* padding ve margin 0 olucak */
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.puzzle {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+.cell {
+  width: 55px;
+  height: 55px;
+  border: 3px solid#404040;
+  background-color: #ffffff;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 1vh;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: 3vw;
+  box-shadow: 0px 1.5px 5px #000000;
+}
+
+.keyboard {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.message {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 3vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #2aa67f;
+  height: 45%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.regularMsg {
+  color: #f5e5df;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.errorMsg {
+  animation: forwards;
+  animation-duration: 2s;
+  color: #f5e5df;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #0f3025;
+}
+
+.successMsg {
+  color: #f5e5df;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.row {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+.keychar {
+  width: 4vh;
+  height: 6vh;
+  border: 1px solid #686868;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 5px;
+  margin: 3px;
+  background-color: #ffffff;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 1.5vw;
+  text-align: unset;
+}
+
+.keychar:hover {
+  background-color: rgb(36, 206, 36);
+  color: white;
+}
+
+.notpresent {
+  background-color: #404040;
+  color: #ffffff;
+}
+
+.rightplace {
+  background-color: rgb(3, 219, 3);
+  color: #000000;
+}
+
+.rightletter {
+  background-color: yellow;
+  color: #000000;
+}
+
+.guess {
+  font-size: 20px;
+  display: flex;
+  color: #0f3025;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+.guess .check {
+  font-weight: bolder;
+  margin-top: -16px;
+  margin-left: 10px;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+}
