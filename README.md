@@ -1,1 +1,1 @@
-[ornek resim](wordleIMG.jpg)
+![ornek resim](wordleIMG.jpg)
