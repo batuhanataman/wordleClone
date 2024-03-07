@@ -1,0 +1,1 @@
+[ornek resim](wordleIMG.jpg)
